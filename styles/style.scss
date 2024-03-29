@@ -1,0 +1,96 @@
+.header {
+
+    &__container{
+        padding: 22px 24px;
+        box-sizing: border-box;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    &__logo {
+        width: 90px;
+    }
+    &__btns-one {
+        margin-left: 100px;
+        border: 1px solid rgb(80, 89, 103);
+        padding: 10px 17px;
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    a {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.6px;
+        letter-spacing: 0.1px;
+        text-align: center;
+    }
+    &__btns-two {
+        padding: 10px 17px;
+        box-sizing: border-box;
+        border-radius: 12px;
+        background: rgb(56, 62, 71);
+        color: white;
+        margin-left: 10px;
+    }
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.hero {
+    padding-top: 120px;
+}
+
+body {
+    overflow-x: hidden
+}
+
+p, a {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.4px;
+}
+
+.hero {
+    &__title {
+        font-family: 'Roboto';
+        font-size: 70px;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    &__text{
+        font-family: 'Inter';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.4px;
+        text-align: center;
+        padding-top: 17px;
+    }
+    &-container {
+        padding: 0 471px;
+        margin-top: 31px;
+    }
+    &__btn-one {
+        padding: 13px 16px;
+        box-sizing: border-box;
+        border-radius: 12px;
+        background: rgb(56, 62, 71);
+        margin-left: 10px;
+        color: white;
+    }
+
+    &__btn-two {
+        padding: 13px 16px;
+        box-sizing: border-box;
+        border-radius: 12px;
+        border: 1px solid rgb(80, 89, 103);
+    }
+
+    margin-bottom: 488px;
+}
