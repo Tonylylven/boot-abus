@@ -96,6 +96,10 @@ p, a {
   margin-bottom: 182px;
 }
 
+.container {
+  padding: 0 46px;
+}
+
 .fastest__title {
   color: rgb(49, 55, 61);
   font-family: Roboto;
